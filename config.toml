@@ -130,7 +130,7 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "$ cd /home/halitbatur"
+    logoText     = "$ cd /halitbatur"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -153,9 +153,9 @@ disableHugoGeneratorInject = false
   # Uncomment this if you want a portrait on your start page
   #
    [params.portrait]
-     path     = "assets/profile.JPG"
+     path     = "images/profile.jpg"
      alt      = "Portrait"
-     maxWidth = "50px"
+     maxWidth = "100"
 
   # Social icons
 
@@ -170,6 +170,10 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/halit-batur-481253197/"
+
+  [[params.social]]
+    name = "instagram"
+    url  = "https://www.instagram.com/halit_batur/"
 
 [languages]
   [languages.en]
@@ -193,9 +197,9 @@ disableHugoGeneratorInject = false
     url        = "posts/"
   [[menu.main]]
     identifier = "portfolio"
-    name = "Portfolio"
-    url = "portfolio/"
+    name       = "Portfolio"
+    url        = "portfolio/"
   [[menu.main]]
     identifier = "contact"
-    name = "Contact"
-    url = "contact/"
+    name       = "Contact"
+    url        = "contact/"
